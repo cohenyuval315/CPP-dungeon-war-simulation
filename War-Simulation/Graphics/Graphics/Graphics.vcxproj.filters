@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Entities">
+      <UniqueIdentifier>{1b20a94c-7172-48e9-b947-fc76566aeefe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entities\NPCs">
+      <UniqueIdentifier>{2ea8312a-2535-487d-94c3-f3e386c2ac4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entities\abilities">
+      <UniqueIdentifier>{407b9272-d7f1-4c83-ad1c-6729f3a26615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entities\buildings">
+      <UniqueIdentifier>{3c9ce91d-9d26-48cd-b3e3-2626215a6f51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entities\projectiles">
+      <UniqueIdentifier>{d62a5bc5-ee61-4f22-8e41-8481c8485935}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Map">
+      <UniqueIdentifier>{488cd1ab-6b49-451e-84a1-c110d75d73bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Map">
+      <UniqueIdentifier>{ba60862e-ab70-4c89-a9ba-9c70541efdd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities">
+      <UniqueIdentifier>{c5995f99-c7e2-44c6-8bb6-8684dc6380ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entities\NPCs\Soldier">
+      <UniqueIdentifier>{62bb7e70-5761-4fb5-ba28-9985bc7b5445}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entities\NPCs\Squire">
+      <UniqueIdentifier>{41e437a5-c449-4515-aaa9-fa235192a2f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities\abilities">
+      <UniqueIdentifier>{83c8fae6-4cd6-49bc-8f2b-24523298ffe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities\buildings">
+      <UniqueIdentifier>{453813b6-8e99-4677-b37e-6468e5ba4826}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities\projectiles">
+      <UniqueIdentifier>{adfc53ed-db96-4442-aec1-fb5b927e15e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities\NPCs">
+      <UniqueIdentifier>{317faa1d-7439-4c45-8b63-2dba1d53d0ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities\NPCs\Squire">
+      <UniqueIdentifier>{29c1e7da-8538-4c4e-9afb-0241b00d1a1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities\NPCs\Soldier">
+      <UniqueIdentifier>{c63ca317-8510-4eef-a412-b8c70739fa64}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cell.cpp">
+      <Filter>Source Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="CanDie.cpp">
+      <Filter>Source Files\Entities\abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="HasAmmo.cpp">
+      <Filter>Source Files\Entities\abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="CompareNodes.cpp">
+      <Filter>Source Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="HasHealth.cpp">
+      <Filter>Source Files\Entities\abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="HasVision.cpp">
+      <Filter>Source Files\Entities\abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Source Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC.cpp">
+      <Filter>Source Files\Entities\NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="SecurityMap.cpp">
+      <Filter>Source Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Soldier.cpp">
+      <Filter>Source Files\Entities\NPCs\Soldier</Filter>
+    </ClCompile>
+    <ClCompile Include="Squire.cpp">
+      <Filter>Source Files\Entities\NPCs\Squire</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>Source Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Team.cpp">
+      <Filter>Source Files\Entities\NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Source Files\Entities\projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Grenade.cpp">
+      <Filter>Source Files\Entities\projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="HasMobility.cpp">
+      <Filter>Source Files\Entities\abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Retreat.cpp">
+      <Filter>Source Files\Entities\NPCs\Soldier</Filter>
+    </ClCompile>
+    <ClCompile Include="Attack.cpp">
+      <Filter>Source Files\Entities\NPCs\Soldier</Filter>
+    </ClCompile>
+    <ClCompile Include="Patrolling.cpp">
+      <Filter>Source Files\Entities\NPCs\Soldier</Filter>
+    </ClCompile>
+    <ClCompile Include="Homing.cpp">
+      <Filter>Source Files\Entities\NPCs\Squire</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchResources.cpp">
+      <Filter>Source Files\Entities\NPCs\Squire</Filter>
+    </ClCompile>
+    <ClCompile Include="SoldierState.h">
+      <Filter>Header Files\Entities\NPCs\Soldier</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthStorage.cpp">
+      <Filter>Source Files\Entities\buildings</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="StorageAmmo.cpp">
+      <Filter>Source Files\Entities\buildings</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NPC.h">
+      <Filter>Header Files\Entities\NPCs</Filter>
+    </ClInclude>
+    <ClInclude Include="HasMobility.h">
+      <Filter>Header Files\Entities\abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Header Files\Entities\projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Grenade.h">
+      <Filter>Header Files\Entities\projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="CanDie.h">
+      <Filter>Header Files\Entities\abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="CompareNodes.h">
+      <Filter>Header Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="HasAmmo.h">
+      <Filter>Header Files\Entities\abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="HasHealth.h">
+      <Filter>Header Files\Entities\abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="HasVision.h">
+      <Filter>Header Files\Entities\abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Header Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Cell.h">
+      <Filter>Header Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Dungeon.h">
+      <Filter>Header Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>Header Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="SecurityMap.h">
+      <Filter>Header Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Team.h">
+      <Filter>Header Files\Entities\NPCs</Filter>
+    </ClInclude>
+    <ClInclude Include="Definitions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Soldier.h">
+      <Filter>Header Files\Entities\NPCs\Soldier</Filter>
+    </ClInclude>
+    <ClInclude Include="Squire.h">
+      <Filter>Header Files\Entities\NPCs\Squire</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SquireState.h">
+      <Filter>Header Files\Entities\NPCs\Squire</Filter>
+    </ClInclude>
+    <ClInclude Include="Homing.h">
+      <Filter>Header Files\Entities\NPCs\Squire</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchResources.h">
+      <Filter>Header Files\Entities\NPCs\Squire</Filter>
+    </ClInclude>
+    <ClInclude Include="Attack.h">
+      <Filter>Header Files\Entities\NPCs\Soldier</Filter>
+    </ClInclude>
+    <ClInclude Include="Retreat.h">
+      <Filter>Header Files\Entities\NPCs\Soldier</Filter>
+    </ClInclude>
+    <ClInclude Include="Patrolling.h">
+      <Filter>Header Files\Entities\NPCs\Soldier</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthStorage.h">
+      <Filter>Header Files\Entities\buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\visual_studio\AIFinalProject\Graphics\Graphics\State.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="StorageAmmo.h">
+      <Filter>Header Files\Entities\buildings</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
